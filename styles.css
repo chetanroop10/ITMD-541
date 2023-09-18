@@ -1,0 +1,26 @@
+h1 {
+  background-color: ;
+  margin-left: 500px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div.bio {
+  background-color: Aquamarine;
+  margin:10px;
+  padding:5px;
+}
+
+div.web-experience{
+	background-color:Aquamarine;
+	margin:10px;
+	padding:5px;
+}
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding:5px;
+}
+body {
+  background-color: DarkTurquoise;
+  
+}
