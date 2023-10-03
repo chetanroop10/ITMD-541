@@ -1,26 +1,173 @@
-h1 {
-  background-color: ;
-  margin-left: 500px;
-  font-family: "Lucida Console", "Courier New", monospace;
+/* Flexbox Part 1 */
+
+#flex-section1 ul {
+	text-align:left;
+	color:rebeccapurple;
+	background-color:powderblue;
+	margin: 10px;
+	padding: 20px 50px;
+	border-radius: 2em 15px 50px;
+	border: groove 1em orange;
 }
 
-div.bio {
-  background-color: Aquamarine;
-  margin:10px;
-  padding:5px;
+/* end Flexbox Part 1 */
+
+
+/* Flexbox Part 2 */
+
+#flex-section2 ul {
+	border-radius: 2em;
+	border: groove 1em red;
+	background-color: rgb(153, 102, 153);
+	padding: 20px 50px;
+	margin: 10px;
 }
 
-div.web-experience{
-	background-color:Aquamarine;
-	margin:10px;
-	padding:5px;
+#flex-section2 li {
+	padding: 10px;
+	margin: 15px;
+	border-style:solid;
+	background-color:lightyellow;
+	color: mediumaquamarine;
+	border-radius: 5px 15px;
+
 }
 
-p {
-  font-family: "Lucida Console", "Courier New", monospace;
-  padding:5px;
+#flex-section2 .item1 {
+	font-family: papyrus;
+
 }
-body {
-  background-color: DarkTurquoise;
-  
+
+#flex-section2 .item2 {
+	font-family: copperplate;
 }
+
+#flex-section2 .item3 {
+	font-family: oblique;
+}
+
+/* end Flexbox Part 2 */
+
+
+/* Flexbox Part 3 */
+
+#flex-section3 .box {
+	background-color: olive;
+	margin: 5px;
+	padding: 20px 2px 2px 20px;
+	border-radius: 2em 15px 50px;
+	border: groove 1em salmon; 
+}
+
+#flex-section3 .tags ul {
+	margin-left: 10px;
+	padding: 25px;
+	background-color: skyblue;
+
+}
+
+/* end Flexbox Part 3 */
+
+
+/* Grid Part 1 */
+
+#grid-section1 .grid {
+	background-color: skyblue;
+	margin: 20px;
+	padding: 15px;
+	border: groove 1em orchid;
+}
+
+/* end Grid Part 1 */
+
+
+/* Grid Part 2 */
+
+#grid-section2 .gridboxblue {
+	border-radius: 13em/3em;
+	margin: 15px;
+
+}
+
+#grid-section2 .gridboxred {
+	border-radius: 40px 10px;
+	margin: 15px;
+
+}
+
+/* end Grid Part 2 */
+
+
+/* Grid Part 3 */
+
+#grid-section3 .grid {
+	margin: 10px;
+	padding: 5px;
+	background-color: peru;
+	border-radius: 10px 40px 40px 10px;
+	border: solid rebeccapurple 10px;
+
+}
+
+#grid-section3 .box1 {
+	margin: 10px;
+	border-radius: 20px 5px;
+	background-color: powderblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#grid-section3 .box2 {
+	margin: 10px;
+	border-radius: 5px 20px;
+	background-color:palegreen;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#grid-section3 .box3 {
+	margin: 10px;
+	border-radius: 20px 5px;
+	background-color: powderblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#grid-section3 .box4 {
+	margin: 10px;
+	border-radius: 5px 20px;
+	background-color:palegreen;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+/* end Grid Part 3 */
+
+
+/* Transition Part */
+
+#transition-section .box a {
+	display: inline-block;
+	background-color: #ccc;
+	color: #000;
+	padding: 20px;
+	margin:auto;
+	text-decoration: none;
+	font-family: cursive;
+
+
+}
+
+#transition-section .box a:hover {
+	background-color: #cc0000;
+	color: #fff;
+	border-radius: 50%;
+	border: none;
+	margin-left: 20px;
+	font-family: fantasy;
+
+
+}
+
+/* end Transition Part */
